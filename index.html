@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsten Baars — FX TD & Procedural Artist</title>
+    <meta name="description" content="VFX Portfolio of Carsten Baars — FX Technical Director specializing in large-scale simulations, procedural systems and pipeline development for film, series & commercials.">
+    <meta name="keywords" content="VFX, FX TD, Houdini, Procedural, Simulation, FX Artist, VFX Portfolio">
+    <meta property="og:title" content="Carsten Baars — FX TD & Procedural Artist">
+    <meta property="og:description" content="Large-scale FX simulations, procedural systems and pipeline development.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-mark">CB</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#showreel">Showreel</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#work" class="mob-link">Work</a></li>
+            <li><a href="#showreel" class="mob-link">Showreel</a></li>
+            <li><a href="#expertise" class="mob-link">Expertise</a></li>
+            <li><a href="#about" class="mob-link">About</a></li>
+            <li><a href="#contact" class="mob-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-vignette"></div>
+            <div class="hero-glow-1"></div>
+            <div class="hero-glow-2"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Available for production work</span>
+            </div>
+
+            <h1 class="hero-name">
+                <span class="name-first">Carsten</span>
+                <span class="name-last">Baars</span>
+            </h1>
+
+            <p class="hero-role">
+                <span class="role-mono">FX Technical Director</span>
+                <span class="role-sep">·</span>
+                <span class="role-mono">Procedural Systems Artist</span>
+            </p>
+
+            <p class="hero-desc">
+                Crafting destruction, large-scale simulations &amp; procedural systems<br>
+                for feature film, series &amp; high-end commercials.
+            </p>
+
+            <div class="hero-ctas">
+                <button class="btn-reel" id="playReel">
+                    <span class="btn-play-icon">
+                        <svg width="12" height="14" viewBox="0 0 12 14" fill="currentColor"><path d="M0 0l12 7-12 7z"/></svg>
+                    </span>
+                    Play Showreel
+                </button>
+                <a href="#work" class="btn-ghost">
+                    Explore Work
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-val">8+</span>
+                    <span class="stat-lbl">Years in VFX</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat">
+                    <span class="stat-val">50+</span>
+                    <span class="stat-lbl">Productions</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat">
+                    <span class="stat-val">AAA</span>
+                    <span class="stat-lbl">Quality Standard</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===================== TICKER ===================== -->
+    <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+            <span>Houdini 20</span><span class="tdot">·</span>
+            <span>Pyro &amp; Fluids</span><span class="tdot">·</span>
+            <span>RBD Destruction</span><span class="tdot">·</span>
+            <span>Procedural Systems</span><span class="tdot">·</span>
+            <span>VEX Programming</span><span class="tdot">·</span>
+            <span>HDA Development</span><span class="tdot">·</span>
+            <span>USD / Solaris</span><span class="tdot">·</span>
+            <span>Karma &amp; Mantra</span><span class="tdot">·</span>
+            <span>Python Pipeline</span><span class="tdot">·</span>
+            <span>Nuke</span><span class="tdot">·</span>
+            <span>Arnold</span><span class="tdot">·</span>
+            <span>Crowd Simulation</span><span class="tdot">·</span>
+            <!-- Duplicate for seamless loop -->
+            <span>Houdini 20</span><span class="tdot">·</span>
+            <span>Pyro &amp; Fluids</span><span class="tdot">·</span>
+            <span>RBD Destruction</span><span class="tdot">·</span>
+            <span>Procedural Systems</span><span class="tdot">·</span>
+            <span>VEX Programming</span><span class="tdot">·</span>
+            <span>HDA Development</span><span class="tdot">·</span>
+            <span>USD / Solaris</span><span class="tdot">·</span>
+            <span>Karma &amp; Mantra</span><span class="tdot">·</span>
+            <span>Python Pipeline</span><span class="tdot">·</span>
+            <span>Nuke</span><span class="tdot">·</span>
+            <span>Arnold</span><span class="tdot">·</span>
+            <span>Crowd Simulation</span><span class="tdot">·</span>
+        </div>
+    </div>
+
+    <!-- ===================== WORK ===================== -->
+    <section id="work">
+        <div class="container">
+            <header class="section-header">
+                <div class="section-tag">Selected Work</div>
+                <h2 class="section-title">Projects</h2>
+                <p class="section-sub">Feature films, episodic series &amp; commercials — FX from pre-vis to final delivery.</p>
+            </header>
+
+            <div class="work-filters">
+                <button class="filter active" data-filter="all">All</button>
+                <button class="filter" data-filter="fx">FX Simulation</button>
+                <button class="filter" data-filter="procedural">Procedural</button>
+                <button class="filter" data-filter="destruction">Destruction</button>
+            </div>
+
+            <div class="work-grid" id="workGrid">
+
+                <article class="work-card featured reveal" data-cat="fx destruction">
+                    <div class="card-thumb" style="--g: linear-gradient(135deg, #100500 0%, #3d1000 45%, #cc3300 100%)">
+                        <div class="card-hover-overlay">
+                            <a href="#" class="card-view-btn">View Project</a>
+                        </div>
+                        <span class="card-badge">Feature Film</span>
+                        <div class="card-thumb-label">
+                            <span class="thumb-title">Large-Scale Destruction</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span class="card-type">Pyro · RBD</span>
+                        </div>
+                        <h3 class="card-title">Building Collapse Sequence</h3>
+                        <p class="card-desc">Multi-layer pyro-driven structural collapse with procedural debris scattering, secondary dust sims and compositing passes for a major feature film.</p>
+                        <div class="card-tags">
+                            <span>Houdini</span><span>Pyro</span><span>RBD</span><span>Mantra</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card reveal" data-cat="fx">
+                    <div class="card-thumb" style="--g: linear-gradient(135deg, #000820 0%, #001845 50%, #0055ff 100%)">
+                        <div class="card-hover-overlay">
+                            <a href="#" class="card-view-btn">View Project</a>
+                        </div>
+                        <span class="card-badge">Commercial</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span class="card-type">FLIP Fluids</span>
+                        </div>
+                        <h3 class="card-title">Hero Ocean Simulation</h3>
+                        <p class="card-desc">FLIP fluid hero water with custom wave controllers, whitewater and spray generation.</p>
+                        <div class="card-tags">
+                            <span>FLIP</span><span>Ocean</span><span>VEX</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card reveal" data-cat="procedural">
+                    <div class="card-thumb" style="--g: linear-gradient(135deg, #070a00 0%, #152200 50%, #3a8800 100%)">
+                        <div class="card-hover-overlay">
+                            <a href="#" class="card-view-btn">View Project</a>
+                        </div>
+                        <span class="card-badge">Series</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span class="card-type">Procedural · HDA</span>
+                        </div>
+                        <h3 class="card-title">Procedural City Generator</h3>
+                        <p class="card-desc">Rule-based city generation HDA with LOD management and pipeline integration for multi-episode series.</p>
+                        <div class="card-tags">
+                            <span>Procedural</span><span>HDA</span><span>Python</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card reveal" data-cat="destruction">
+                    <div class="card-thumb" style="--g: linear-gradient(135deg, #0a0800 0%, #2a2000 50%, #ddaa00 100%)">
+                        <div class="card-hover-overlay">
+                            <a href="#" class="card-view-btn">View Project</a>
+                        </div>
+                        <span class="card-badge">Feature Film</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span class="card-type">RBD · Pyro</span>
+                        </div>
+                        <h3 class="card-title">Vehicle Destruction Rig</h3>
+                        <p class="card-desc">Procedural vehicle destruction with constraint networks, deformation layers and integrated pyro for impact effects.</p>
+                        <div class="card-tags">
+                            <span>RBD</span><span>Constraints</span><span>Pyro</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card reveal" data-cat="fx">
+                    <div class="card-thumb" style="--g: linear-gradient(135deg, #08000a 0%, #200025 50%, #aa00cc 100%)">
+                        <div class="card-hover-overlay">
+                            <a href="#" class="card-view-btn">View Project</a>
+                        </div>
+                        <span class="card-badge">Commercial</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span class="card-type">Particles · VEX</span>
+                        </div>
+                        <h3 class="card-title">Particle Storm System</h3>
+                        <p class="card-desc">Millions of art-directable particles with custom VEX force fields and GPU-optimized rendering.</p>
+                        <div class="card-tags">
+                            <span>POPs</span><span>VEX</span><span>Karma</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card reveal" data-cat="procedural">
+                    <div class="card-thumb" style="--g: linear-gradient(135deg, #000a0a 0%, #001a20 50%, #00bbdd 100%)">
+                        <div class="card-hover-overlay">
+                            <a href="#" class="card-view-btn">View Project</a>
+                        </div>
+                        <span class="card-badge">Series</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span class="card-type">Crowds · Pipeline</span>
+                        </div>
+                        <h3 class="card-title">Crowd FX Pipeline</h3>
+                        <p class="card-desc">Custom crowd simulation pipeline with Houdini Crowd solver, agent variations and real-time Unreal preview.</p>
+                        <div class="card-tags">
+                            <span>Crowds</span><span>Unreal</span><span>Pipeline</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SHOWREEL ===================== -->
+    <section id="showreel" class="reel-section">
+        <div class="container">
+            <header class="section-header centered reveal">
+                <div class="section-tag">Demo Reel</div>
+                <h2 class="section-title">2024 Showreel</h2>
+            </header>
+            <div class="reel-frame reveal">
+                <div class="reel-wrapper">
+                    <iframe
+                        src="https://player.vimeo.com/video/YOUR_VIMEO_ID?color=00d4ff&title=0&byline=0&portrait=0"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen
+                        title="Carsten Baars VFX Showreel 2024">
+                    </iframe>
+                </div>
+                <div class="reel-label">
+                    <span class="reel-tag">FX &amp; Procedural Reel 2024</span>
+                    <span class="reel-tag">3:42</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== BREAKDOWNS ===================== -->
+    <section id="breakdowns">
+        <div class="container">
+            <header class="section-header reveal">
+                <div class="section-tag">Technical</div>
+                <h2 class="section-title">Breakdowns</h2>
+                <p class="section-sub">Process-first. How the sausage is made, node by node.</p>
+            </header>
+
+            <div class="bd-grid">
+
+                <div class="bd-card reveal">
+                    <div class="bd-visual" style="--g: linear-gradient(135deg, #180600 0%, #ff3300 100%)">
+                        <span class="bd-num">01</span>
+                    </div>
+                    <div class="bd-body">
+                        <div class="bd-tag">Pyro · RBD</div>
+                        <h3>Destruction — Step by Step</h3>
+                        <p>From Voronoi fracture through guided pyro simulation, layered passes and final comp handoff. Every decision explained.</p>
+                        <a href="#" class="bd-link">Watch Breakdown <span>→</span></a>
+                    </div>
+                </div>
+
+                <div class="bd-card reveal">
+                    <div class="bd-visual" style="--g: linear-gradient(135deg, #000820 0%, #0044ff 100%)">
+                        <span class="bd-num">02</span>
+                    </div>
+                    <div class="bd-body">
+                        <div class="bd-tag">Procedural · HDA</div>
+                        <h3>City Generator — Deep Dive</h3>
+                        <p>Node graph walkthrough, parameter promotion strategy, and how we integrated it with the show pipeline without breaking anyone's life.</p>
+                        <a href="#" class="bd-link">Watch Breakdown <span>→</span></a>
+                    </div>
+                </div>
+
+                <div class="bd-card reveal">
+                    <div class="bd-visual" style="--g: linear-gradient(135deg, #080020 0%, #7700ff 100%)">
+                        <span class="bd-num">03</span>
+                    </div>
+                    <div class="bd-body">
+                        <div class="bd-tag">FLIP · Meshing</div>
+                        <h3>Hero Water — FLIP Fluids</h3>
+                        <p>Simulation strategy, meshing approaches, VEX-driven attribute manipulation and the render setup that made the supe happy.</p>
+                        <a href="#" class="bd-link">Watch Breakdown <span>→</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EXPERTISE ===================== -->
+    <section id="expertise" class="expertise-section">
+        <div class="container">
+            <header class="section-header centered reveal">
+                <div class="section-tag">Toolkit</div>
+                <h2 class="section-title">Expertise</h2>
+                <p class="section-sub">Built for production. Optimized for deadlines. No excuses.</p>
+            </header>
+
+            <div class="exp-layout">
+
+                <div class="exp-block reveal">
+                    <div class="exp-cat">FX Simulations</div>
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>Pyro &amp; Fire</span>
+                                <span class="skill-pct">95%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="95"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>FLIP Fluids</span>
+                                <span class="skill-pct">90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="90"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>RBD Destruction</span>
+                                <span class="skill-pct">93%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="93"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>Particles &amp; POPs</span>
+                                <span class="skill-pct">88%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="88"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>Crowds</span>
+                                <span class="skill-pct">80%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-block reveal">
+                    <div class="exp-cat">Procedural &amp; Technical</div>
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>VEX Programming</span>
+                                <span class="skill-pct">92%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="92"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>HDA Development</span>
+                                <span class="skill-pct">88%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="88"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>Python Pipeline</span>
+                                <span class="skill-pct">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>USD / Solaris</span>
+                                <span class="skill-pct">78%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="78"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-head">
+                                <span>Rendering (Karma / Arnold)</span>
+                                <span class="skill-pct">82%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" data-pct="82"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tools-block reveal">
+                    <div class="exp-cat">Software &amp; Tools</div>
+                    <div class="tool-chips">
+                        <span class="chip primary">Houdini 20+</span>
+                        <span class="chip">Maya</span>
+                        <span class="chip">Nuke</span>
+                        <span class="chip">Karma</span>
+                        <span class="chip">Mantra</span>
+                        <span class="chip">Arnold</span>
+                        <span class="chip">VEX</span>
+                        <span class="chip">Python</span>
+                        <span class="chip">USD</span>
+                        <span class="chip">Unreal Engine</span>
+                        <span class="chip">Deadline</span>
+                        <span class="chip">Git</span>
+                        <span class="chip">Linux / Windows</span>
+                        <span class="chip">ShotGrid</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about">
+        <div class="container">
+            <div class="about-layout reveal">
+
+                <div class="about-photo-wrap">
+                    <div class="about-photo">
+                        <div class="photo-placeholder">CB</div>
+                    </div>
+                    <div class="photo-frame-accent"></div>
+                </div>
+
+                <div class="about-text">
+                    <div class="section-tag">About</div>
+                    <h2 class="section-title">Carsten Baars</h2>
+                    <p class="about-lead">
+                        FX TD and Procedural Systems Artist based in Germany, specializing in large-scale simulations and tool development for feature films, episodic series and high-end commercials.
+                    </p>
+                    <p class="about-body">
+                        With 8+ years in production VFX, I bridge the gap between technical rigor and artistic vision. I build systems that scale, simulations that hold up under the tightest scrutiny, and pipelines that don't collapse at 3AM the night before a delivery.
+                    </p>
+                    <p class="about-body">
+                        My workflow is built around Houdini as the core of everything — from look dev prototypes through final cache delivery. I write VEX and Python daily, develop reusable HDAs, and thrive in the intersection between art and engineering.
+                    </p>
+                    <p class="about-body">
+                        Currently open to freelance FX work and full-time FX TD / Pipeline TD positions worldwide.
+                    </p>
+                    <div class="about-contacts">
+                        <a href="mailto:hello@carstenbaars.com" class="about-contact-link">
+                            <span class="contact-icon">✉</span>
+                            hello@carstenbaars.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/carstenbaars" target="_blank" rel="noopener" class="about-contact-link">
+                            <span class="contact-icon">in</span>
+                            LinkedIn
+                        </a>
+                        <a href="https://www.imdb.com/name/carstenbaars" target="_blank" rel="noopener" class="about-contact-link">
+                            <span class="contact-icon">▶</span>
+                            IMDb
+                        </a>
+                        <a href="https://vimeo.com/carstenbaars" target="_blank" rel="noopener" class="about-contact-link">
+                            <span class="contact-icon">◎</span>
+                            Vimeo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-inner reveal">
+                <div class="section-tag" style="text-align:center; margin-bottom: 16px;">Get In Touch</div>
+                <h2 class="contact-heading">Let's build<br>something epic.</h2>
+                <p class="contact-sub">
+                    Feature film, commercial deadline, or a pipeline challenge —<br>
+                    I'm in. Let's talk.
+                </p>
+                <a href="mailto:hello@carstenbaars.com" class="contact-email">
+                    hello@carstenbaars.com
+                    <span>→</span>
+                </a>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/carstenbaars" target="_blank" rel="noopener">LinkedIn</a>
+                    <span class="cl-sep">·</span>
+                    <a href="https://vimeo.com/carstenbaars" target="_blank" rel="noopener">Vimeo</a>
+                    <span class="cl-sep">·</span>
+                    <a href="https://www.imdb.com/name/carstenbaars" target="_blank" rel="noopener">IMDb</a>
+                    <span class="cl-sep">·</span>
+                    <a href="https://www.artstation.com/carstenbaars" target="_blank" rel="noopener">ArtStation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <span>© 2024 Carsten Baars — All rights reserved.</span>
+                <span class="footer-right">FX TD · Procedural Artist · <span class="foot-accent">www.carstenbaars.com</span></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===================== REEL MODAL ===================== -->
+    <div class="reel-modal" id="reelModal" role="dialog" aria-modal="true" aria-label="Showreel">
+        <div class="modal-bg" id="modalBg"></div>
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose" aria-label="Close">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><line x1="1" y1="1" x2="13" y2="13"/><line x1="13" y1="1" x2="1" y2="13"/></svg>
+            </button>
+            <div class="modal-player">
+                <iframe id="reelIframe" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
